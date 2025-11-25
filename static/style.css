@@ -1,0 +1,104 @@
+ body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+            background: linear-gradient(135deg, #ffdee9, #b5fffc);
+            font-family: "Poppins", sans-serif;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            width: 320px;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 30px;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            margin: 12px 0;
+            font-size: 1.05rem;
+            cursor: pointer;
+            border: none;
+            border-radius: 14px;
+            transition: 0.25s;
+            font-weight: 500;
+        }
+
+        .start-btn {
+            background: #7ed6df;
+        }
+
+        .start-btn:hover {
+            background: #22a6b3;
+            color: white;
+        }
+
+        .pause-btn {
+            background: #ff7979;
+        }
+
+        .pause-btn:hover {
+            background: #eb4d4b;
+            color: white;
+        }
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: 600;
+    color: #444;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background: #f4f6f7;
+    margin-bottom: 18px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: 0.25s;
+}
+
+input:focus {
+    background: #e0f7ff;
+    box-shadow: 0 0 4px #22a6b3;
+}
+
+button[type="submit"] {
+    background: #a29bfe;
+    padding: 14px;
+    border-radius: 14px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+button[type="submit"]:hover {
+    background: #6c5ce7;
+    color: white;
+}
