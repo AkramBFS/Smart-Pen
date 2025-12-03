@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Smart Pen Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+  <h1>Smart Pen Dashboard</h1>
+
+  <form id="metaForm">
+    <label>Name (student):</label>
+    <input type="text" id="student" required>
+
+    <label>ID (student id/date):</label>
+    <input type="text" id="sid" required>
+
+    <label>Hand:</label>
+    <select id="hand">
+      <option value="right">Right</option>
+      <option value="left">Left</option>
+    </select>
+
+    <label>Sample:</label>
+    <input type="text" id="sample" required>
+
+    <label>Quality:</label>
+    <select id="quality">
+      <option value="good">Good</option>
+      <option value="medium">Medium</option>
+      <option value="bad">Bad</option>
+    </select>
+
+    <div class="btn-row">
+      <button type="button" id="startBtn">Start Recording</button>
+      <button type="button" id="stopBtn">Stop Recording</button>
+    </div>
+  </form>
+
+  <div class="status">
+    <strong>Status:</strong> <span id="state">Idle</span>
+  </div>
+
+  <div class="live">
+    <h3>Live sensor (last packet)</h3>
+    <pre id="lastPacket">-</pre>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
