@@ -8,7 +8,7 @@ using namespace websockets;
 
 // ===== CONFIG =====
 const char* ssid = "ZTE_2.4G_BFS";
-const char* password = "";
+const char* password = "uMHUQaQP";
 const char* ws_server = "ws://192.168.1.27:8765/esp";  // connect to /esp
 
 // ===== MPU (clone-safe) =====
