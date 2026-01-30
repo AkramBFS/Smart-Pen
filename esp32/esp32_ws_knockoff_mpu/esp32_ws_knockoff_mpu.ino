@@ -7,9 +7,9 @@
 using namespace websockets;
 
 // ===== CONFIG =====
-const char* ssid = "ZTE_2.4G_BFS";
-const char* password = "uMHUQaQP";
-const char* ws_server = "ws://192.168.1.27:8765/esp";  // connect to /esp
+const char* ssid = "Souki's A56";
+const char* password = "souki2002";
+const char* ws_server = "ws://10.62.121.57:8765/esp";  // connect to /esp
 
 // ===== MPU (clone-safe) =====
 #define MPU 0x68
