@@ -170,8 +170,7 @@ Small dataset
 
 Professor required MLP + Random Forest for the assignment
 
-Feature Extraction Strategy (Option A)
-Why Option A?
+Feature Extraction Strategy
 
 Instead of segmenting strokes or letters:
 
